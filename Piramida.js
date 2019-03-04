@@ -1,13 +1,13 @@
-var n = 3;
+var n = 10;
 var a = "#";
 var b = "_";
-for (let i=0; i<=n; i++){
+for (let i=0; i<n; i++){
     var stair = '';
-    for(let j = 0; j < n; j--) {
+    for(let j = 0; j < n; j++) {
         if(j<=i)
-        stair += '#'
+        stair += a
         else
-        stair += "_"
+        stair += b
 }
 console.log(stair)
 }
